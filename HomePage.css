@@ -7,3 +7,26 @@ a{
     color: black;
 
 }
+img {
+    width: 100%
+}
+p{
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.imgslider{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(Dhstt.png);
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 20s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url(Dhstt.png);}
+    50%{background-image: url(tt\ image.png);}
+}
