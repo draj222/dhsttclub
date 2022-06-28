@@ -1,0 +1,88 @@
+nav{
+    background-color: white;
+}
+
+
+a{
+    color: black;
+
+}
+
+p{
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.imgslider{
+    width: 84%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(Dhstt.png);
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 15s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url(Dhstt.png);}
+    50%{background-image: url(tt\ image.png);}
+}
+
+.logo-img{
+width: 15%;
+float: left;
+position: relative;
+margin: 10px 15px 15px 10px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/* Navigation */
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+.bg-div{
+    background:rgb(255, 255, 255);
+    overflow: hidden;
+    
+ }
+body{
+    background-color: #fefeff;
+}
+.aboutus{
+    color: black;
+    font-size: 25px;
+    position: left;
+    left: 5%;
+    transform: translate(5%,5%);
+
+    }
+h3{
+    font-size: 30px;
+}
