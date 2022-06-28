@@ -31,5 +31,8 @@ p{
     50%{background-image: url(tt\ image.png);}
 }
 .navlogo{
-    
+
+}
+body{
+    background-color: #fefeff;
 }
