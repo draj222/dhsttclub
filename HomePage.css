@@ -16,7 +16,7 @@ p{
     
 }
 .imgslider{
-    width: 70%;
+    width: 84%;
     height: 400px;
     position: absolute;
     left: 50%;
@@ -24,7 +24,7 @@ p{
     transform: translate(-50%, -50%);
     background-image: url(Dhstt.png);
     box-shadow: 1px 2px 10px 5px black;
-    animation: slider 20s infinite linear;
+    animation: slider 15s infinite linear;
 }
 @keyframes slider{
     0%{background-image: url(Dhstt.png);}
@@ -32,3 +32,4 @@ p{
 }
 .navlogo{
     
+}
