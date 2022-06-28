@@ -7,9 +7,7 @@ a{
     color: black;
 
 }
-img {
-    width: 100%
-}
+
 p{
     font-size: 60px;
     font-family: "Times New Roman", Times, serif;
@@ -31,7 +29,7 @@ p{
     50%{background-image: url(tt\ image.png);}
 }
 .navlogo{
-
+width: 15%;
 }
 body{
     background-color: #fefeff;
