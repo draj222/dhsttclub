@@ -14,11 +14,13 @@ p{
     
 }
 .imgslider{
-    width: 1200px;
+    width: 80%;
     height: 400px;
     background-image: url(Dhstt.png);
-    box-shadow: 1px 2px 10px 5px black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     animation: slider 15s infinite linear;
+    float:center;
 }
 @keyframes slider{
     0%{background-image: url(Dhstt.png);}
