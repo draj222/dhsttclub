@@ -44,3 +44,6 @@
      nav{
         background-color: white;
     }
+    .nav:hover{
+        text-decoration: underline;
+        }
