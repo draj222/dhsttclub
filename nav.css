@@ -49,4 +49,8 @@
     .nav:hover{
         text-decoration: underline;
         color: darkblue;
+        background-color: rgba(248, 109, 109, 0.542);
+        border-radius: 25px;
+
+        
         }
