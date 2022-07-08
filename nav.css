@@ -1,3 +1,4 @@
+
 .logo-img{
     width: 10%;
     float: left;
@@ -12,7 +13,6 @@
     }
     
     nav{
-        float: center;
         margin: 0;
         overflow:hidden;
         text-align: center;
@@ -28,7 +28,8 @@
         list-style-type: none;
     }
     
-    nav > ul > li > a{
+    .nav{
+        float: center;
         color: rgb(0, 0, 0);
         display: block;
         line-height: 2em;
@@ -52,5 +53,36 @@
         background-color: rgba(248, 109, 109, 0.542);
         border-radius: 25px;
 
-        
+     }
+     @keyframes slideInLeft {
+        0% {
+          transform: translateX(-100%);
         }
+        100% {
+          transform: translateX(0);
+        }
+      }
+      nav {
+        animation: 1s ease-out 0s 1 slideInLeft;      
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+ 
+.bg-div a.active{
+    background-color: rgba(113, 181, 248, 0.624);
+    float: center;
+    color: rgb(0, 0, 0);
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-size: 150%;
+    text-decoration: bold;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+
+     
