@@ -29,12 +29,13 @@
     }
     
     nav > ul > li > a{
-        color: #aaa;
+        color: rgb(0, 0, 0);
         display: block;
         line-height: 2em;
         padding: 0.5em 1em;
         text-decoration: none;
         font-size: 150%;
+        text-decoration: bold;
     }
     .bg-div{
         background:rgb(255, 255, 255);
