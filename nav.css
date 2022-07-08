@@ -36,6 +36,7 @@
         text-decoration: none;
         font-size: 150%;
         text-decoration: bold;
+        font-weight: bold;
     }
     .bg-div{
         background:rgb(255, 255, 255);
