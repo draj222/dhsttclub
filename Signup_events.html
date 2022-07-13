@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Sign Up</title>
+
+</head>
+
+<body>
+    <script type="text/javascript">var submitted = false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+        onload="if(submitted){window.location = 'SignUp.html';}"></iframe>
+    <div class="bg-div">
+        <a href="HomePage.html"><img class="logo-img" src="Logo.jpg" ALT="align box" ALIGN=CENTER></a>
+        <nav>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <li><a class="nav" href="HomePage.html">Home</a></li>
+                <li><a class="nav" href="MeetYourOfficers.html">Meet Your Officers</a></li>
+                <li><a class="nav" href="Donate.html">Donate</a></li>
+                <li><a class="nav" href="JOC.html">Join Our Community</a></li>
+                <li><a class="nav" href="Events.html">Events</a></li>
+                <li><a class="active" href="SignUp.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <form action="Signup_events.html">
+        <div class="form2">
+            <br>
+            <br>
+            <h1>Sign Up for the Leuge Events</h1>
+            <p>Please fill out this form to partcipate in leuge events.</p>
+            <hr>
+            <label for='name'>Enter Name:</label>
+            <br>
+            <input type="text" id='name' name='name' Required>
+            <br>
+            <label for='email'>Enter Valid School Email:</label>
+            <br>
+            <input type='email' id="email" name="email" Required>
+            <br>
+            <label for="grade">Enter USATT Rating:</label>
+            <br>
+            <input type='number' id='rating' name='rating' min='0' max='3000' Required>
+            <br>
+            <!--
+            <label for="date">Select Event:</label>
+            <br>
+            <input type='select' id="date" name="date" Required>
+            <br>
+            -->
+            <button>Sign up</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
